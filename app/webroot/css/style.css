@@ -1,0 +1,32 @@
+body, html { 
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+}
+#map_canvas{
+    height: 100%;
+    width: 100%;
+    margin: -20px 0 0;
+}
+#content{
+    height: 100%;
+}
+#container{
+    height: 100%;
+    overflow: hidden;
+}
+.navbar-default{ 
+    background: #FFE168;
+}
+.navbar-default .navbar-brand{
+    color: #666;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #666;
+}
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+background-color: #FFDB4A;
+color: #555;
+}
